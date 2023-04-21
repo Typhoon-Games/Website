@@ -1,0 +1,71 @@
+.app-container {
+  background-color: #222;
+  color: #fff;
+  font-family: 'Futura PT', sans-serif;
+}
+
+.game-frame-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-frame {
+  border: none;
+  border-radius: 30px;
+  width: 80%;
+  height: 700px;
+  margin-top: 20px;
+  overflow: hidden;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.game-info {
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 80%;
+  margin-bottom: 60px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.game-description {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.fullscreen-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Futura PT', sans-serif;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+}
+
+.fullscreen-button svg {
+  fill: #ffffff;
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
